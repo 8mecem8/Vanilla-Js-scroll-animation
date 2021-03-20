@@ -1,0 +1,19 @@
+{
+  "name": "scroll-with-images",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "pro": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.7",
+    "parcel-bundler": "^1.12.5",
+    "three": "^0.126.1",
+    "three.js": "^0.77.1"
+  }
+}
