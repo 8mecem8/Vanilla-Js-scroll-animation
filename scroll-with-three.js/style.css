@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overscroll-behavior: none;
+
+  overflow-y: hidden;
+}
+
+#box {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  background: #ff0000;
+  margin: 0 30px;
+  z-index: 100;
+}
+
+.n {
+  position: absolute;
+  top: 100px;
+  width: 200px;
+  height: 10px;
+  background: #400040;
+  z-index: 99;
+}
+
+.n1 {
+  top: 200px;
+}
+
+.n2 {
+  top: 300px;
+}
+
+.n3 {
+  top: 400px;
+}
+
+.n4 {
+  top: 500px;
+}
+
+#wrap {
+  position: absolute;
+  z-index: 102;
+}
+
+.webgl {
+  touch-action: auto !important;
+  scroll-behavior: auto !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 400px;
+  z-index: 1;
+}
