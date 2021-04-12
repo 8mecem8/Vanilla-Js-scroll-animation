@@ -11,7 +11,7 @@ window.addEventListener('wheel', (e) => {
 
 function run()
  {
-     console.log(speed)
+     //console.log(speed)
      
     box.style.transform = `translate(0,${speed}px)`
     window.requestAnimationFrame(run)
